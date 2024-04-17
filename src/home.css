@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5rem;
+  font-size: 16px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .main {
+    width: 750px;
+    margin: 6rem auto;
+    border-radius: 20px;
+  }
+  .image_container {
+    margin: 2.5rem 2.5rem 0;
+  }
+  .image {
+    border-radius: 20px;
+  }
+}
+@media screen and (min-width: 799px) {
+  .main {
+    width: 100%;
+  }
+  .image_container {
+    margin: 0;
+  }
+  .footer {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+.main {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.preparation_container {
+  background-color: hsl(330, 100%, 98%) !important;
+  padding: 2rem;
+  border-radius: 10 px;
+}
+
+.prepation_header {
+  color: hsl(332, 51%, 32%);
+  margin: 0 0 1rem 0;
+  font-size: 1.3rem;
+}
+
+.list {
+  list-style: disc;
+  padding: 0 1.5rem;
+}
+
+.list_inst {
+  padding: 0 1.5rem;
+  list-style: decimal;
+}
+
+.list_items {
+  padding: 0.3rem 1rem;
+}
+.list_items::marker {
+  color: hsl(14, 45%, 36%);
+}
+.list_items span {
+  font-weight: 700;
+}
+
+.preparation_list_items {
+  padding: 0.3rem 1rem;
+}
+.preparation_list_items::marker {
+  color: hsl(332, 51%, 32%);
+}
+.preparation_list_items span {
+  font-weight: 700;
+}
+
+span {
+  font-weight: 800;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.section {
+  margin: 0 2.5rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.section:first-of-type {
+  border: none;
+}
+
+.section_heading {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main_heading {
+  margin: 0 0 1.5rem 0;
+  font-size: 2.3rem;
+  font-weight: 500;
+  line-height: 2.8rem;
+  color: hsl(24, 5%, 18%);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+.table tbody tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.table tbody tr:last-of-type {
+  border: none;
+}
+.table tbody tr td {
+  padding: 0.5rem 1.5rem;
+  border-collapse: collapse;
+}
+.table tbody tr td:nth-of-type(2) {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}/*# sourceMappingURL=home.css.map */
