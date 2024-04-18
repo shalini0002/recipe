@@ -1,21 +1,18 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import React from "react";
 import "./App.css";
 import "../src/home.css";
 function App() {
-  const [count, setCount] = useState(0);
+ 
 
   return (
     <>
       <main className="main">
         <div className="image_container">
           <img
-            src="/assets/image-omelette.jpeg"
-            alt="image"
-            className="{style.image} "
+            src='/src/assets/image-omelette.jpeg'
+            className="image"
           />
-          {/* <img src='{omelette}' alt='omelette image' className='{style.image}'/> */}
+          {/* <img src={omelette} alt='omelette image' className='{style.image}'/> */}
         </div>
         <section className="section">
           <h1>Simple Omelette Recipe</h1>
