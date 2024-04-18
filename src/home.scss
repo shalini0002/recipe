@@ -46,10 +46,12 @@ body {
   }
   .image_container {
     margin: 2.5rem 2.5rem 0;
+  
   }
 
   .image {
     border-radius: 20px;
+   
   }
 }
 @media screen and (min-width: 799px) {
@@ -58,6 +60,10 @@ body {
   }
   .image_container{
     margin: 0;
+    padding: 40px;
+  }
+  .image{
+    border-radius: 20px;
   }
   .footer{
     height: 3rem;
